@@ -1,0 +1,609 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Josefin+Slab:400,600,700|Overlock:400,700');
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great|Josefin+Sans|Josefin+Slab');
+* {
+    box-sizing: border-box;
+}
+img {
+    display: block;
+   
+}
+body,
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+ 
+
+}
+
+
+#frontHeader {
+    font-family: 'Fredericka the Great', cursive;
+    color: black;
+    font-size: 15vw;
+    font-weight: 400;
+    margin: 100px 0 0 45px;
+    }
+.footer {
+
+    text-align: center;
+    font-family: 'Josefin slab';
+    font-size:1vw;
+}
+
+
+
+#sidenav {
+
+    height: 100%;
+    z-index: 2;
+    position: fixed;
+  
+
+}
+
+
+#sidenav ul {
+    color: black;
+    font-size: 70px;
+
+    position: fixed;
+    right: 5%;
+
+    list-style: none;
+}
+
+
+
+#sidenav li {
+    padding-top: 1em;
+}
+
+#myTopnav {
+    z-index: 2;
+    position: fixed;
+}
+
+
+#gif {
+    width:50%;
+}
+
+
+img.pl1x,
+.pl2x,
+.pl3x,
+.pl4x,
+.pl5x,
+.pl6x,
+.pl7x {
+    width: 0.5em;
+    opacity: 0.1;
+    float: right;
+
+
+}
+
+
+
+img.pl1xit,
+.pl2xit,
+.pl3xit,
+.pl4xit,
+.pl5xit,
+.pl6xit,
+.pl7xit {
+    opacity: 1;
+}
+
+.buttonxy {
+    width: 32vw;
+    margin-top: 20%;
+    padding: 0;
+    float:right;
+
+}
+
+#plan5 img.goto{
+    position: relative;
+    width:30vw; 
+    margin-top:5%;
+}
+
+#plan2 h1 {
+    color: #330000;
+    margin-left:30%;
+   font-size: 8vw;
+}
+
+#plan3 h1 {
+     color: #330000;
+   font-size: 8vw;
+             margin-left:30%;
+   
+}
+
+#plan4 h1 {
+       color: #330000;
+font-size: 8vw;
+         margin-left:25%;
+  
+}
+
+#plan7 h1 {
+    color: #330000;
+    margin-left:10%;
+    font-size: 3em
+}
+
+#plan5.hero-image5 h1 {
+    margin-top:10%;
+    color: #264d00;
+    font-size: 5vw;
+    text-align: center;
+
+}
+
+
+
+
+
+h1 {
+     font-family: 'Fredericka the Great', cursive;
+       font-weight: 400;
+}
+
+
+
+#plan6 h1 {
+    font-size: 5em;
+    font-size: 3em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+
+#plan1 p {
+    font-size: 3vw;
+    color: #330000;
+}
+
+#plan5 {
+  
+}
+
+#plan2 p {
+
+font-size: 2.4vw;
+    color: #330000;
+        margin-left:30%;
+    margin-right: 20%;
+  font-family: 'Josefin Slab', 'sans-serif', 'JFWildWood';
+     padding:0.5vw;
+}
+
+#plan3 p {
+font-size: 2.4vw;
+   color: #330000;
+             margin-left:30%;
+    margin-right: 20%;
+    
+
+       font-family: 'Josefin Slab', 'sans-serif', 'JFWildWood';
+ padding:0.5vw;
+}
+
+#plan4 p {
+font-size: 2.4vw;
+    color: #330000;
+             margin-left:25%;
+    margin-right: 20%;
+     font-family: 'Josefin Slab', 'sans-serif', 'JFWildWood';
+     padding:0.5vw;
+}
+
+#plan5 p {
+font-size: 2.4vw;
+       color: #003300;
+     font-family: 'Josefin Slab', 'sans-serif', 'JFWildWood';
+    margin-right: 20%;
+     padding:0.5vw;
+}
+
+#plan6 p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+     font-family: 'Josefin Slab', 'sans-serif', 'JFWildWood';
+     padding:0.5vw;
+}
+
+#plan7 p {
+font-size: 2vw;
+    color: #330000;
+             margin-left:10%;
+    margin-right: 50%;
+     font-family: 'Josefin Slab', 'sans-serif', 'JFWildWood';
+
+}
+
+
+#plan1 a {
+    color: #330000;
+    float: right;
+    border: none;
+
+    margin-top: -100px;
+    text-decoration: none;
+    font-family: Arial;
+
+
+
+
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: initial;
+}
+
+
+
+#plan2 button {
+    color: #264d00;
+}
+
+#plan3 button {
+    color: #264d00;
+}
+
+#plan4 button {
+    color: #264d00;
+}
+
+#plan5 button {
+    color: #264d00;
+}
+
+#plan6 button {
+    color: #264d00;
+}
+
+
+#plan7 img {
+
+position: relative;
+
+}
+
+#plan7 button {
+    color: #264d00;
+    background-color: green;
+
+
+
+}
+
+
+
+#plan7 input {
+
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 20px/10px;
+
+
+}
+
+
+
+#plan1 h1 {
+    color:#330000;
+    line-height: 1;
+}
+    
+
+
+.hero-image7 img {
+    width:30vw;
+    position: relative;
+  left:60%;
+    margin-top: -20vw;
+ 
+}
+
+
+.hero-image {
+    background-image: url("../1nn.jpg");
+    height: 60vw;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: static;
+    
+
+}
+
+
+.hero-image2 {
+    background-image: url("../2n.png");
+   height: 60vw;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: static;
+    
+}
+
+.hero-image3 {
+    background-image: url("../3n.png");
+   height: 60vw;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: static;
+
+}
+
+.hero-image4 {
+    background-image: url("../4n.png");
+   height: 60vw;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: static;
+}
+
+.hero-image5 {
+
+    background-image: url("../blank.png");
+   height: 60vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: static;
+    
+}
+
+
+
+.hero-image6.loadit {}
+
+.hero-image7 {
+    background-image: url("../blank.png");
+   height: 60vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.hero-text9 p {
+     background-color: rgba(255,255,255,0.9);
+ 
+}
+.hero-text9 h1 {
+     background-color: rgba(255,255,255,0.9);
+    width:30%;
+}
+.hero-text3 p {
+     background-color: rgba(255,255,255,0.9);
+ 
+}
+.hero-text3 h1 {
+     background-color: rgba(255,255,255,0.9);
+}
+.hero-text4 p {
+     background-color: rgba(255,255,255,0.9);
+ 
+}
+.hero-text4 h1 {
+     background-color: rgba(255,255,255,0.9);
+}
+
+
+
+.hero-text {
+
+    position: relative;
+    top: 0;
+    color: white;
+    padding: 1em;
+}
+
+.hero-text1 {
+    top: 0;
+    color: white;
+    padding: 1em 0 0em 0em;
+    position: static;
+    
+
+}
+
+.hero-text9 {
+
+    top:0;
+    position: sticky;
+
+
+
+}
+
+
+
+.hero-text3 {
+ 
+   top: 5%;
+
+
+ 
+    position: sticky;
+
+
+  
+}
+
+.hero-text4 {
+    top: 5%;
+  
+    position: sticky;
+ 
+
+
+}
+
+.hero-text5 {
+    color: white;
+    position: static;
+  
+}
+.hero-text5 img{
+    float:left;
+    width: 40vw;
+margin: 0 auto;
+  
+}
+.hero-text6 {
+    top: 10%;
+    color: white;
+
+    position: sticky;
+
+    font-size: 2em;
+}
+
+.hero-text7 {
+    top: 10%;
+
+    color: white;
+
+    position: sticky;
+}
+
+
+
+
+
+.hero-text2 {
+    text-align: center;
+
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+
+
+
+
+
+.topnav {
+width: 100%;
+    right: 0px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.7);
+    line-height: 50px;
+    text-align: center;
+
+}
+
+.topnav a {
+
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: 'Josefin sans';
+
+}
+
+.topnav a:hover {
+    background-color: rgba(255,255,255,0.5);
+    color: black;
+
+}
+
+.active {
+
+    float: left;
+    position: relative;
+width: 10vh;
+    padding:1vw 0 0 1vw;
+    z-index: 3;
+ 
+
+}
+
+.m {
+    float: right;
+    margin-right: 1.2em;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {
+        display: none;
+
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {
+        height: 100%;
+width:100%;
+        background-color: rgba(255, 255, 255, 1);
+    }
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+
+        display: grid;
+    }
+    .topnav a.icon {
+        color: black;
+        font-size: 2.5em;
+    }
+    .topnav.responsive .m {
+        position: relative;
+        top:15%;
+        float:none;
+        font-size: 2.4em;
+    }
+    #sidenav{
+        display:none;
+    }
+}
+
+img.coin {
+
+    width:20vw;
+    float:left;
+z-index: -5;
+    margin-top:-35%;
+    
+}
+
+img.coin2 {
+
+    width:20vw;
+    float:left;
+z-index: -5;
+    margin-top:-15%;
+    
+}
